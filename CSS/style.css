@@ -1,0 +1,50 @@
+/* html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+} */
+
+/* FONTS */
+/* -- home -- */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap");
+
+/* -- google font -- */
+
+/* NAVBAR */
+.navbar-sec {
+  background-color: #25272b;
+}
+.navbar {
+  animation: navbar-load 500ms ease-out;
+}
+
+/* HOME */
+.home {
+  background-image: linear-gradient(#25272b, #f7cbfd);
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.homeh1 {
+  font-family: "Lato", sans-serif;
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 1000;
+  color: #dfe5f0;
+  animation: home-h1 1500ms ease-out;
+}
+
+.pxlstudioh1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+.rectangle {
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+  border-radius: 50px;
+  background-color: black;
+}
